@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/measure"
+        android:icon="@drawable/ic_baseline_gradient_24"
+        android:title="Moisture levels" />
+        <item android:id="@+id/plant"
+            android:icon="@drawable/ic_baseline_grass_24"
+            android:title="Plant Monitor"/>
+    <item android:id="@+id/irrigate"
+        android:icon="@drawable/ic_baseline_egg_24"
+        android:title="Irrigation"/>
+
+        <item android:id="@+id/ratings"
+            android:icon="@drawable/ic_rate_star"
+            android:title=" Rate app"/>
+    </group>
+    <item android:id="@+id/settings"
+        android:title="Settings">
+        <menu>
+            <item android:id="@+id/appset"
+                android:icon="@drawable/settings_ic"
+                android:title="App Settings"
+                />
+            <item android:id="@+id/plantset"
+                android:icon="@drawable/ic_baseline_settings_applications_24"
+                android:title="Plant Settings"/>
+            <item android:id="@+id/bluetooth"
+                android:icon="@drawable/ic_baseline_bluetooth_24"
+                android:title="Bluetooth Settings"
+                />
+        </menu>
+    </item>
+
+
+
+
+</menu>

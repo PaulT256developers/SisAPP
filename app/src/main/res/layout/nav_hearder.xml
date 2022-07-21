@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_header"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="@color/purple_200"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:padding="16dp"
+    android:layout_height="160dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/planthnd" />
+<TextView
+    android:id="@+id/navheader_text"
+    android:layout_width="match_parent"
+    android:paddingTop="16dp"
+    android:text="Irrigate to get more profits"
+    android:textSize="20dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+    android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
